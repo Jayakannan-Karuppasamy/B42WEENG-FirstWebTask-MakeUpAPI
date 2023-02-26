@@ -99,7 +99,7 @@ const getMakupItems = async (searchBrand) => {
         globalChars = makeupItems;
         charsArea.innerHTML = '';
         responseLength = makeupItems.length;
-        // console.log(makeupItems.length);
+        console.log(makeupItems.length);
         makeupItems.forEach(({ id, brand, name, price, image_link, product_link, description }) => {
             // console.log(id, brand, name, price, image_link, product_link, description);
             const divElement = document.createElement('div');
